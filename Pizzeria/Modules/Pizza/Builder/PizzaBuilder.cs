@@ -1,6 +1,6 @@
-﻿namespace Pizzeria.src.Modules.Pizza.Builder;
+﻿namespace Pizzeria.Modules.Pizza.Builder;
 
-using Pizzeria.src.Modules.Pizza.Data;
+using Pizzeria.Modules.Pizza.Data;
 
 public class PizzaBuilder : IPizzaBuilder
 {

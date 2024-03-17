@@ -1,4 +1,4 @@
-﻿namespace Pizzeria.src.Modules.Pizza.Builder;
+﻿namespace Pizzeria.Modules.Pizza.Builder;
 
 //Tydzień 2, Wzorzec Builder 1
 // Wzorzec kreacyjny, wariant wykorzystujący jednego dyrektora, bez płynnego interfejsu (zwracania typu klasy w metodach)

@@ -1,4 +1,4 @@
-﻿namespace Pizzeria.src.Modules.Pizza.Data;
+﻿namespace Pizzeria.Modules.Pizza.Data;
 
 public class PizzaInstruction
 {

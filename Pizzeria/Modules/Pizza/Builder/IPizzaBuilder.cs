@@ -1,4 +1,4 @@
-﻿namespace Pizzeria.src.Modules.Pizza.Builder;
+﻿namespace Pizzeria.Modules.Pizza.Builder;
 
 public interface IPizzaBuilder
 {

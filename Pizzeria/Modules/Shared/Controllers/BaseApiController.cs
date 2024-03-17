@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Pizzeria.src.Modules.Shared.Controllers;
+namespace Pizzeria.Modules.Shared.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
