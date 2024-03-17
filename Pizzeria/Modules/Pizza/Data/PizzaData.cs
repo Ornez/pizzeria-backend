@@ -24,3 +24,4 @@ public class PizzaData : ICloneable<PizzaData>
         };
     }
 }
+//Koniec, Tydzień 2, Wzorzec Prototyp 1.
