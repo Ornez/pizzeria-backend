@@ -2,8 +2,6 @@
 
 namespace Pizzeria.Modules.Pizza.Data;
 
-//Tydzień 2, Wzorzec Prototyp 1
-// Wzorzec kreacyjny, tworzy kopię obiektu, może rozwiązywać problem z kopiowaniem referencji bądź zależności rekursywnych
 public class PizzaData : ICloneable<PizzaData>
 {
     public string Name { get; set; } = "";
@@ -12,6 +10,8 @@ public class PizzaData : ICloneable<PizzaData>
     public bool Pineapple { get; set; }
     public bool Salami { get; set; }
 
+    //Tydzień 2, Wzorzec Prototyp 1
+    //Wzorzec kreacyjny, tworzy kopię obiektu, może rozwiązywać problem z kopiowaniem referencji bądź zależności rekursywnych
     public PizzaData Clone()
     {
         return new PizzaData
@@ -23,5 +23,5 @@ public class PizzaData : ICloneable<PizzaData>
             Salami = this.Salami
         };
     }
+    //Koniec, Tydzień 2, Wzorzec Prototyp 1.
 }
-//Koniec, Tydzień 2, Wzorzec Prototyp 1.
